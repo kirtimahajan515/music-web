@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding: 0;
+    font: sans-serif;
+    
+}
+.container{
+    height: 100vh;
+    width:100%;
+    background-image: url(/assets/image.png);
+    background-size:cover;
+    position: relative;
+    /* ay container kay relative hi rahega sab eskay bahar nahi jayega */
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 88%;
+    margin:0 auto;
+    padding: 15px 0;
+    /* horizontally center */
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap:30px;
+
+
+}
+a{
+ text-decoration: none;
+ color: #5f5f5f;
+ font-size: 15px;
+ display: inline-block;
+}
+
+.logo{
+    width:140px;
+    cursor: pointer;
+
+}
+
+.content{
+    position: absolute;
+    top:30%;
+    width: 100%;
+    
+}
+.left-col{
+    margin:6%;
+}
+.left-col  h1{
+    font-size: 90px;
+    color: white;
+    line-height: 110px; 
+    float:left;  
+    text-shadow: 2px 2px 2px black;
+}
+
+.right-col{
+    float: right;
+    margin-right: 6%;
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+
+}
+.right-col p{
+    margin-right: 15px;
+    font-size: 18px;
+    color: #5f5f5f;
+    font-weight: 400;
+
+}
